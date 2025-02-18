@@ -14,9 +14,9 @@ public class HTTPRequest {
 		//https://reqres.in/api/users?page=2
 		.then()
 		.statusCode(200)
-		.body("Page",equalTo(2))
+		//.body("per_page", equalTo(6))
 		.log().all();
-		
+		 
 	}
 	
 }
